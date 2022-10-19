@@ -1,10 +1,13 @@
 {
-  "name": "template-node-typscript",
+  "name": "command-line-tool-template",
   "version": "1.0.0",
   "description": "",
   "scripts": {
     "build": "tsc",
     "test": "jest"
+  },
+  "bin": {
+    "cli-template": "./index.js"
   },
   "author": "Stephen McGuckin",
   "license": "ISC",
@@ -13,7 +16,10 @@
     "ts-jest": "^26.5.0",
     "typescript": "^4.1.3"
   },
-  "dependencies": {},
+  "dependencies": {
+    "commander": "^9.4.1",
+    "ts-node": "^10.9.1"
+  },
   "jest": {
     "clearMocks": true,
     "coverageDirectory": "coverage",

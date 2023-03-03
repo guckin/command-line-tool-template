@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "build": "tsc",
-    "preinstall": "rollup -c --bundleConfigAsCjs",
+    "postinstall": "rollup -c --bundleConfigAsCjs",
     "test": "jest"
   },
   "bin": {

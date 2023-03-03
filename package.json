@@ -8,7 +8,7 @@
     "test": "jest"
   },
   "bin": {
-    "cli-template": "./index.js"
+    "cli-template": "./bin/cli.mjs"
   },
   "author": "Stephen McGuckin",
   "license": "ISC",
